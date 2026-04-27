@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Anime Pulse | Fanaticos de Anime & K-Pop</title>
+    <meta name="description"
+        content="Tu portal definitivo para las últimas noticias, quizzes interactivos y cultura de Anime y K-Pop.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">K-ANIME PULSE</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <a href="#" class="cta-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Unirse</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="hero-img-container">
+                <img src="assets/hero.png" alt="Anime and K-pop Mashup">
+            </div>
+            <div class="hero-content">
+                <h1>Donde el Anime y el K-Pop <span style="color: var(--primary);">Colisionan</span></h1>
+                <p>Las últimas tendencias, noticias exclusivas y desafíos para los verdaderos fans. ¡Lleva tu pasión al
+                    siguiente nivel!</p>
+                <div class="hero-buttons">
+                    <a href="#quiz" class="cta-btn">Tomar el Quiz</a>
+                    <a href="#noticias" class="cta-btn"
+                        style="background: transparent; border: 2px solid var(--primary); margin-left: 15px;">Ver
+                        Noticias</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="noticias" class="section-padding">
+            <div class="section-title">
+                <h2>Últimas Noticias</h2>
+            </div>
+            <div class="news-grid">
+                <!-- News 1 -->
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('assets/news1.png');">
+                    </div>
+                    <div class="news-info">
+                        <span>Anime • Hoy</span>
+                        <h3>Los 5 Animes más esperados de la temporada</h3>
+                        <p>Desde regresos épicos hasta nuevos estrenos que prometen romper el internet. Mira lo que
+                            viene.</p>
+                    </div>
+                </article>
+                <!-- News 2 -->
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('assets/news2.png');">
+                    </div>
+                    <div class="news-info">
+                        <span>K-Pop • Hace 2h</span>
+                        <h3>¡Confirmado! El regreso más esperado del año</h3>
+                        <p>Se revelan las primeras imágenes del concepto visual y la fecha oficial del próximo álbum.
+                        </p>
+                    </div>
+                </article>
+                <!-- News 3 -->
+                <article class="news-card">
+                    <div class="news-image" style="background-image: url('assets/news3.png');">
+                    </div>
+                    <div class="news-info">
+                        <span>Cultura • Ayer</span>
+                        <h3>Guía de Supervivencia: Próxima Convención</h3>
+                        <p>Todo lo que necesitas saber sobre el evento más grande de la región que une a todas las
+                            comunidades.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz" class="section-padding" style="background: rgba(0,0,0,0.2);">
+            <div class="section-title">
+                <h2>¿Qué tanto sabes?</h2>
+            </div>
+            <div class="quiz-container" id="quiz-wrapper">
+                <div id="quiz-content">
+                    <div class="quiz-question" id="question">Cargando desafío...</div>
+                    <div class="quiz-options" id="options">
+                        <!-- Options go here -->
+                    </div>
+                    <div class="quiz-footer">
+                        <span id="quiz-progress">Pregunta 1 de 5</span>
+                        <button id="next-btn" class="cta-btn"
+                            style="padding: 0.6rem 1.2rem; display: none;">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo logo">K-ANIME PULSE</div>
+        <p>Tu dosis diaria de cultura pop coreana y japonesa.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-dim);">© 2024 K-Anime Pulse. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
